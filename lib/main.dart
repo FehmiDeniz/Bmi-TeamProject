@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
+import 'package:teamproject/homeScreenBottom.dart';
 
 
 void main() {
@@ -51,14 +52,15 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             Container(
               //Text ve cinsiyet için container
-              height: 35.h,
+              height: 30.h,
               width: double.infinity,
             ),
             Container(
               //User info ve calculate button için container
-              color: Colors.red,
               
-              height: 65.h,
+              child: homeScreenBottom(),
+              
+              height: 60.h,
               width: double.infinity,
             ),
             
