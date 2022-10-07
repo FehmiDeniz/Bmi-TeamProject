@@ -56,6 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Container(
               //User info ve calculate button için container
+              color: Colors.red,
               
               height: 65.h,
               width: double.infinity,
