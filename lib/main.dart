@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
+import 'package:teamproject/homeScreenBottom.dart';
 
 void main() {
   runApp(const MyApp());
@@ -44,7 +45,11 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             Container(
               //Text ve cinsiyet için container
+
               height: 40.h,
+
+              height: 30.h,
+
               width: double.infinity,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -116,6 +121,12 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Container(
               //User info ve calculate button için container
+
+
+
+              
+              child: homeScreenBottom(),
+              
 
               height: 60.h,
               width: double.infinity,
