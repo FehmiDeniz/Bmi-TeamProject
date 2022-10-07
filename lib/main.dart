@@ -53,6 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
               //Text ve cinsiyet için container
               height: 35.h,
               width: double.infinity,
+              decoration: BoxDecoration(color: Colors.red),
             ),
             Container(
               //User info ve calculate button için container
