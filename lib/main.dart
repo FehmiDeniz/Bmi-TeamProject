@@ -48,8 +48,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
               height: 40.h,
 
-              height: 30.h,
-
               width: double.infinity,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -68,7 +66,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     'You can find out whether you are \n overweight, underweight or ideal weight',
                     style: TextStyle(fontSize: 17),
                   ),
-                  SizedBox(height: 40,),
+                  SizedBox(
+                    height: 40,
+                  ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
@@ -122,11 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
               //User info ve calculate button için container
 
-
-
-              
               child: homeScreenBottom(),
-              
 
               height: 60.h,
               width: double.infinity,
