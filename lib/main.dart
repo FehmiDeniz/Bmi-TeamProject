@@ -43,6 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
 
     return Scaffold(
+      resizeToAvoidBottomInset: false,
 
       body: Container(
         margin: EdgeInsets.only(right:5.w,left:5.w),
